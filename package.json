@@ -1,0 +1,16 @@
+{
+  "name": "youtube-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Angel S. Moreno <angelxmoreno@gmail.com> (https://angelxmoreno.github.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "googleapis": "^14.2.0"
+  }
+}
