@@ -5,7 +5,10 @@ var youtube = google.youtube('v3');
 var config = require('./config');
 var express = require('express');
 var app = express();
+var cors = require('cors');
+
 app.set('port', (process.env.PORT || 3000));
+app.use(cors());
 
 app.get('/', function (req, res) {
     res.send('You need to search via "/{something}"');
